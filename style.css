@@ -1,0 +1,493 @@
+
+#frame {
+	border: 7px solid;
+	border-color: rgba(255, 251, 61, 0.8);
+	height: 250px;
+	width: 100px;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+}
+
+#frame2 {
+	border: 7px solid;
+	border-color: rgba(255, 251, 61, 0.8);
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	top: 400px;
+
+}
+
+#frame3 {
+	border: 7px solid;
+	border-color: rgba(255, 251, 61, 0.8);
+	height: 175px;
+	width: 200px;
+	position: absolute;
+	top: 400px;
+	left: 1200px;
+		-ms-transform: rotate(18deg); /* IE 9 */
+    -webkit-transform: rotate(18deg); /* Chrome, Safari, Opera */
+    transform: rotate(18deg);
+	
+}
+
+#frame4 {
+	border: 7px solid;
+	border-color: rgba(255, 251, 61, 0.8);
+	height: 150px;
+	width: 100px;
+	position: absolute;
+	top: 500px;
+	left: 1100px;
+		-ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+	
+}
+
+#gtext {
+	height: 180px;
+	width: 675px;
+	background: rgba(0, 0, 0, 0.2);
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 2;
+	-webkit-animation: gmove 1s ease-in-out;
+}
+
+
+
+#gtext p {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 5em;
+	margin-top: 15px;
+	margin-left: 50px;
+}
+
+#abox{
+	height: 150px;
+	width: 375px;
+	background: rgba(255, 251, 61, 0.3);
+	position: fixed;
+	top: 125px;
+	right: -10px;
+	z-index: 3;
+	-ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+     -webkit-animation: amove 1s ease-in-out;
+}
+
+
+
+#abox p {
+	color: white;
+	font-size: 1.8em;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	margin-left: 110px;
+	padding-top: 25px;
+	-ms-transform: rotate(18deg); /* IE 9 */
+    -webkit-transform: rotate(18deg); /* Chrome, Safari, Opera */
+    transform: rotate(18deg);
+
+
+}
+
+
+
+
+#abox a {
+		text-decoration: none;
+		color: white;
+}
+
+#abox a:hover{
+	color: rgb(255, 251, 61);
+}
+
+
+
+.exhibits {
+
+	background-image: url("./images/gamut1.jpg");
+	width: 1080px;
+	height: 720px;
+	position: fixed;
+	right: 0px;
+	top: -2px;
+	z-index: -1;
+}
+
+#currentback {
+
+	background-color: white;
+	opacity: 1;
+	width: 650px;
+	height: 380px;
+	position: fixed;
+	left: 480px;
+	top: 315px;
+	z-index: 0;
+	overflow: scroll;
+	display: none;
+}
+
+.header2 {
+	width: 650px;
+	height: 150px;
+	background-image: url('./images/header2.jpg');
+	opacity: 1;
+}
+
+.subhead2 {
+	width: 650px;
+	height: 150px;
+	background-image: url('./images/subhead1.jpg');
+	opacity: 1;
+}
+
+
+
+#upcomeback {
+
+	background-color: white;
+	opacity: 1;
+	width: 650px;
+	height: 380px;
+	position: fixed;
+	left: 480px;
+	top: 315px;
+	z-index: 0;
+	overflow: scroll;
+	display: none;
+}
+
+.header1 {
+	width: 650px;
+	height: 150px;
+	background-image: url('./images/header1.jpg');
+	opacity: 1;
+}
+
+.subhead1 {
+	width: 650px;
+	height: 150px;
+	background-image: url('./images/subhead.jpg');
+	opacity: 1;
+}
+
+.def p {
+	margin: 15px 50px 15px 50px;
+	font-size: 1.5em;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+}
+
+.textbody {
+	margin: 15px 50px 80px 50px;
+}
+
+.textbody h1 {
+	font-size: 1.1em;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+}
+
+.textbody h2 {
+	font-size: 1.2em;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+}
+
+.textbody p {
+	font-family: 'Crimson Text', serif;
+	font-size: 11pt;
+	margin: .5em;
+	line-height: 16px;
+}
+
+.presses {
+
+	background-image: url("./images/press.jpg");
+	width: 1080px;
+	height: 720px;
+	position: fixed;
+	right: 0px;
+	top: -2px;
+	z-index: -1;
+}
+
+
+.pressback {
+
+	background-color: white;
+	opacity: .8;
+	width: 500px;
+	height: 450px;
+	position: fixed;
+	right: 415px;
+	top: 180px;
+	padding-top: 50px;
+	z-index: 0;
+	-ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+}
+
+#pressscroll {
+
+	background-color: white;
+	width: 450px;
+	height: 400px;
+	overflow: scroll;
+	position: fixed;
+	right: 440px;
+	top: 200px;
+	padding-top: 50px;
+	z-index: 1;
+	-ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+}
+
+#pressscroll p {
+
+
+	font-family: 'Crimson Text', serif;
+	font-size: 12pt;
+	margin: .25em;
+	line-height: 16px;
+	margin-left: 30px;
+	margin-right: 35px;
+	-ms-transform: rotate(18deg); /* IE 9 */
+    -webkit-transform: rotate(18deg); /* Chrome, Safari, Opera */
+    transform: rotate(18deg);
+
+}
+
+.yellow {
+	background: rgba(255, 251, 61, 0.3);
+}
+
+
+
+#pressscroll h1 {
+	font-family: 'Crimson Text', serif;
+	font-size: 15pt;
+	font-weight: bold;
+	padding-top: 5px;
+	margin-left: 10px;
+	margin-right: 25px;
+		-ms-transform: rotate(18deg); /* IE 9 */
+    -webkit-transform: rotate(18deg); /* Chrome, Safari, Opera */
+    transform: rotate(18deg);
+
+}
+
+#pressscroll h2 {
+	font-family: 'Crimson Text', serif;
+	font-size: 13pt;
+		margin: .25em;
+	line-height: 16px;
+	margin-left: 30px;
+		margin-right: 35px;
+		-ms-transform: rotate(18deg); /* IE 9 */
+    -webkit-transform: rotate(18deg); /* Chrome, Safari, Opera */
+    transform: rotate(18deg);
+
+} 
+
+#gamut {
+
+	background-image: url("./images/gamutbw.jpg");
+	display: none;
+	width: 1080px;
+	height: 720px;
+	position: fixed;
+	right: 0px;
+	top: -2px;
+	z-index: -1;
+}
+
+#ladder {
+
+	height: 700px;
+	width: 375px;
+	-ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+    position: fixed;
+    left: 25px;
+    margin-top: -75px;
+    -webkit-animation: ladder_move 1s ease-in-out;
+}
+
+
+
+#ladder2 {
+
+	height: 700px;
+	width: 375px;
+	-ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+    position: fixed;
+    right: 0px;
+    margin-top: -75px;
+    z-index: 3;
+    -webkit-animation: lmove 1s ease-in-out;
+
+}
+
+
+#navbox {
+	height: 150px;
+	width: 375px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+
+#bbox {
+	height: 150px;
+	width: 375px;
+	background: rgba(255, 251, 61, 0.3);
+}
+
+#pframe {
+	height: 150px;
+	width: 375px;
+	border: solid 13px;
+	border-color: rgba(255, 251, 61, 0.4);
+	-ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+    position: fixed;
+    right: -115px;
+    margin-top: 455px;
+    z-index: 3;
+    -webkit-animation: pmove 1s ease-in-out;
+    
+   
+}
+
+
+
+#navbox p {
+	color: white;
+	font-size: 1.8em;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	margin-left: 90px;
+	padding-top: 80px;
+	-ms-transform: rotate(18deg); /* IE 9 */
+    -webkit-transform: rotate(18deg); /* Chrome, Safari, Opera */
+    transform: rotate(18deg);
+
+}
+
+#bbox p {
+	color: white;
+	font-size: 1.8em;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	margin-left: 90px;
+	padding-top: 80px;
+	-ms-transform: rotate(18deg); /* IE 9 */
+    -webkit-transform: rotate(18deg); /* Chrome, Safari, Opera */
+    transform: rotate(18deg);
+
+}
+
+#navbox a {
+		text-decoration: none;
+		color: white;
+}
+
+#bbox a {
+		text-decoration: none;
+		color: white;
+}
+
+#navbox a:hover{
+	color: rgb(255, 251, 61);
+}
+
+#bbox a:hover{
+	color: rgb(255, 251, 61);
+}
+
+.currentex{
+	margin-top: 20px;
+}
+
+.upcomingex{
+	margin-top: 20px;
+}
+
+.events {
+
+
+}
+
+.exhibit {
+	margin-top: 20px;
+}
+
+.archive {
+	margin-top: 20px;
+}
+
+.press {
+	margin-top: 20px;
+}
+
+.nbox {
+	margin-top: 20px;
+}
+
+
+@-webkit-keyframes amove {
+  0% { right: -185px;}
+  100% { right: -10px;}
+ 
+}
+
+@-webkit-keyframes ladder_move {
+  0% { left: -150px;}
+  100% { left: 25px;}
+ 
+}
+
+@-webkit-keyframes lmove {
+  0% { right: -175px;}
+  100% { right: 0px;}
+ 
+}
+
+@-webkit-keyframes pmove {
+  0% { right: -300px;}
+  100% { right: -115px;}
+ 
+}
+
+@-webkit-keyframes pmove1 {
+  0% { right: -300px;}
+  100% { right: -90px;}
+ 
+}
+
+ 
+@-webkit-keyframes gmove {
+  0% { top: -185px;}
+  100% { top: 0px;}
+ 
+}
+
+
+
+
